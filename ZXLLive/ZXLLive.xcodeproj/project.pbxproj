@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D7A07D211EF7B176005CDA92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A07D201EF7B176005CDA92 /* main.m */; };
-		D7A07D241EF7B176005CDA92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A07D231EF7B176005CDA92 /* AppDelegate.m */; };
-		D7A07D271EF7B176005CDA92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A07D261EF7B176005CDA92 /* ViewController.m */; };
 		D7A07D2A1EF7B176005CDA92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A07D281EF7B176005CDA92 /* Main.storyboard */; };
 		D7A07D2C1EF7B176005CDA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A07D2B1EF7B176005CDA92 /* Assets.xcassets */; };
 		D7A07D2F1EF7B176005CDA92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A07D2D1EF7B176005CDA92 /* LaunchScreen.storyboard */; };
 		D7A07D3A1EF7B177005CDA92 /* ZXLLiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A07D391EF7B177005CDA92 /* ZXLLiveTests.m */; };
 		D7A07D451EF7B177005CDA92 /* ZXLLiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A07D441EF7B177005CDA92 /* ZXLLiveUITests.m */; };
+		D7A07D571EF7B362005CDA92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A07D561EF7B362005CDA92 /* ViewController.m */; };
+		D7A07D5A1EF7B369005CDA92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A07D591EF7B369005CDA92 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +37,6 @@
 /* Begin PBXFileReference section */
 		D7A07D1C1EF7B176005CDA92 /* ZXLLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXLLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A07D201EF7B176005CDA92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D7A07D221EF7B176005CDA92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D7A07D231EF7B176005CDA92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D7A07D251EF7B176005CDA92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D7A07D261EF7B176005CDA92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D7A07D291EF7B176005CDA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7A07D2B1EF7B176005CDA92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7A07D2E1EF7B176005CDA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +47,10 @@
 		D7A07D401EF7B177005CDA92 /* ZXLLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXLLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A07D441EF7B177005CDA92 /* ZXLLiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXLLiveUITests.m; sourceTree = "<group>"; };
 		D7A07D461EF7B177005CDA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A07D551EF7B362005CDA92 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Classes/ViewController.h; sourceTree = "<group>"; };
+		D7A07D561EF7B362005CDA92 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Classes/ViewController.m; sourceTree = "<group>"; };
+		D7A07D581EF7B369005CDA92 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7A07D591EF7B369005CDA92 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +101,9 @@
 		D7A07D1E1EF7B176005CDA92 /* ZXLLive */ = {
 			isa = PBXGroup;
 			children = (
-				D7A07D221EF7B176005CDA92 /* AppDelegate.h */,
-				D7A07D231EF7B176005CDA92 /* AppDelegate.m */,
-				D7A07D251EF7B176005CDA92 /* ViewController.h */,
-				D7A07D261EF7B176005CDA92 /* ViewController.m */,
-				D7A07D281EF7B176005CDA92 /* Main.storyboard */,
 				D7A07D2B1EF7B176005CDA92 /* Assets.xcassets */,
-				D7A07D2D1EF7B176005CDA92 /* LaunchScreen.storyboard */,
 				D7A07D301EF7B176005CDA92 /* Info.plist */,
+				D7A07D521EF7B309005CDA92 /* Classes */,
 				D7A07D1F1EF7B176005CDA92 /* Supporting Files */,
 			);
 			path = ZXLLive;
@@ -117,6 +112,10 @@
 		D7A07D1F1EF7B176005CDA92 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D7A07D551EF7B362005CDA92 /* ViewController.h */,
+				D7A07D561EF7B362005CDA92 /* ViewController.m */,
+				D7A07D281EF7B176005CDA92 /* Main.storyboard */,
+				D7A07D2D1EF7B176005CDA92 /* LaunchScreen.storyboard */,
 				D7A07D201EF7B176005CDA92 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +137,31 @@
 				D7A07D461EF7B177005CDA92 /* Info.plist */,
 			);
 			path = ZXLLiveUITests;
+			sourceTree = "<group>";
+		};
+		D7A07D521EF7B309005CDA92 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D7A07D581EF7B369005CDA92 /* AppDelegate.h */,
+				D7A07D591EF7B369005CDA92 /* AppDelegate.m */,
+				D7A07D531EF7B309005CDA92 /* AVCollect */,
+				D7A07D541EF7B309005CDA92 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D7A07D531EF7B309005CDA92 /* AVCollect */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AVCollect;
+			sourceTree = "<group>";
+		};
+		D7A07D541EF7B309005CDA92 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +300,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7A07D271EF7B176005CDA92 /* ViewController.m in Sources */,
-				D7A07D241EF7B176005CDA92 /* AppDelegate.m in Sources */,
+				D7A07D571EF7B362005CDA92 /* ViewController.m in Sources */,
 				D7A07D211EF7B176005CDA92 /* main.m in Sources */,
+				D7A07D5A1EF7B369005CDA92 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +542,7 @@
 				D7A07D4B1EF7B177005CDA92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7A07D4C1EF7B177005CDA92 /* Build configuration list for PBXNativeTarget "ZXLLiveTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +551,7 @@
 				D7A07D4E1EF7B177005CDA92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7A07D4F1EF7B177005CDA92 /* Build configuration list for PBXNativeTarget "ZXLLiveUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +560,7 @@
 				D7A07D511EF7B177005CDA92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
